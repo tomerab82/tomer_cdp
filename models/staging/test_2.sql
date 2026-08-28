@@ -1,3 +1,3 @@
-select top 240 
+select top 500 
 * 
 from {{ source ('source_1', 'orders') }}
